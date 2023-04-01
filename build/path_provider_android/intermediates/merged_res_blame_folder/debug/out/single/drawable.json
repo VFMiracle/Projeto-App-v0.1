@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "E:\\App Projects\\Flutter Projects\\projeto_app\\build\\path_provider_android\\intermediates\\merged_res\\debug\\drawable\\notification_bg.xml",
+        "source": "C:\\Users\\Vanderson\\.gradle\\caches\\transforms-3\\aa95afed299d988ca18a7fc986da1ae7\\transformed\\core-1.6.0\\res\\drawable\\notification_bg.xml"
+    },
+    {
+        "merged": "E:\\App Projects\\Flutter Projects\\projeto_app\\build\\path_provider_android\\intermediates\\merged_res\\debug\\drawable\\notification_bg_low.xml",
+        "source": "C:\\Users\\Vanderson\\.gradle\\caches\\transforms-3\\aa95afed299d988ca18a7fc986da1ae7\\transformed\\core-1.6.0\\res\\drawable\\notification_bg_low.xml"
+    },
+    {
+        "merged": "E:\\App Projects\\Flutter Projects\\projeto_app\\build\\path_provider_android\\intermediates\\merged_res\\debug\\drawable\\notification_tile_bg.xml",
+        "source": "C:\\Users\\Vanderson\\.gradle\\caches\\transforms-3\\aa95afed299d988ca18a7fc986da1ae7\\transformed\\core-1.6.0\\res\\drawable\\notification_tile_bg.xml"
+    },
+    {
+        "merged": "E:\\App Projects\\Flutter Projects\\projeto_app\\build\\path_provider_android\\intermediates\\merged_res\\debug\\drawable\\notification_icon_background.xml",
+        "source": "C:\\Users\\Vanderson\\.gradle\\caches\\transforms-3\\aa95afed299d988ca18a7fc986da1ae7\\transformed\\core-1.6.0\\res\\drawable\\notification_icon_background.xml"
+    }
+]

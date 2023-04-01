@@ -1,0 +1,100 @@
+ABREVIATION
+	- The following elements will be abreviated according to thir group's header:
+	.LIKE FUNCTIONS:
+		- Unique names of background tasks.
+
+CLASS LISTING ORDER:
+	- Classes are listed in alphabetical order, with one exception:
+		- Classes that extend StatefulWidget are always immediatly followed by their State classes.
+
+FLUTTER HABITS:
+	ALPHABETICAL ORDERS:
+		- The '_' always comes after letters.
+	CONDITIONAL WIDGETS IN THE RETURN SECTION OF BUILD FUNCTIONS:
+		- Wrapping a subwidget in an 'if' statement if it is only built under a condition doesn't work. What can be done is call a function that handles the 'if'. Due to Flutter's recomendations and our prioritization of adaptability, this function should always be defined outside of the build function.
+	GLOBAL VARIABLE PLACEMENT FOR STATEFUL WIDGETS:
+		- Flutter seems to nudge the placement of certain types of StatefulWidget variables into specific sections of it. Externally available constants are placed whithin the StatefulWidget itself, common variables (the ones whose state is mutable) are placed in the Widget's State and variables that need to be reset before every build are placed inside the build statement.
+
+FUNCTION LISTING ORDER:
+	- Personal static functions in alphabetical order.
+	- Overrides of system functions.
+		- Startup and ending functions in the order they're called during an instance's lifecycle.
+		- Other overrides in aphabetical order of the function's name.
+		- Override of the 'build' function.
+	- Personal object functions in alphabetical order.
+
+FUTURE ADDITIONS:
+	NECESSARY:
+		- Add a thrid button to the alarm panel that immediatly resets the cronometer and registers it's time.
+	POSSIBLE:
+		- Make sure the app works on IOS, even if the cronometer notification is dropped.
+
+POSSIBLE IMPROVEMENTS:
+	ADAPTABILITY:
+		- Figure out how to open the keyboard without moving an AlertDialog. The idea would be to display the keyboard on top of the AlertDialog.
+	DEBUGGING:
+		- Figure out why the Background Cronometer stops working if the emulator is hot restarted.
+	FUNCTIONALITY:
+		- Allow the CronometerPanel to play Alarms for the running Cronometers.
+		- Make the background cronometer continue to run after the app has been closed.
+		- It is possible to convert the CronometerPanelInitialState class into a table in the database. That way the Cronometers can still "count" even when the app was completly closed.
+	ORGANIZATION:
+		- Convert NotificationManager into a singleton class since there's no point in creating more than one.
+	PERFORMANCE:
+		- It might be possible to speed up the app's startup time by making CronometerRecorder's _database save a reference to Future<Database>. That means there's one less await inside the Recorder's startup, and any function that access _database simply needs one more await for it, which isn't a problem since the functions are asynchronous. This needs to be built in such a way that it doesn't cause problems for the app startup though.
+		- See if there's a way to record a new Cronometer in such a way that it'll always be part of a list, but without having to extract and convert all the data from the record and add it back in every time a new Cronometer needs to be recorded.
+		- The wait for some of the initialization functions in the app's startup might be causing delays when it begins. See if that's the case and if there's a way to cricumvent that wait.
+	PRECISION:
+		- Consider using a smaller unit of time for the ticks of all Counters, so there's a greater amount of precision in their value transfers.
+		- Consider using a smaller amount of time for the Cronometer's infntDrtn constant. Perhaps that'll bring more precision to it's _updateCounterValue function, since it won't need to handle as small floating point values.
+	UI/UX:
+		- Make sure the 'Pause' and 'Reset' buttons occupy all the horizontal space given to them.
+		- Allow the Time Record Editor to also edit the task of a Time Record.
+		- Add a background color or other kind of aesthetic to distinguish the Date Selector as a button in the AppBar of the Time Record Panel.
+	VISUALS:
+		- Find a way to make the notification's 'Paused' be written under the text that displays the cronometer's current value.
+		- Center the text in the Text Field for the alarm dialog box.
+		- Figure out how to change the size of the Text Buttons of the Dialog that deletes Cronometers, so they fill all their available space.
+
+POSSIBLE PROBLEMS:
+	BACKGROUND CRONOMETER:
+		- Doesn't correctly record the time in certain, yet unknown, circumstances while the cellphone is blocked. There are some possible solutions (placing a lock in the assignment of the startTime global variable for example), but, for their effectiveness to be guaranteed, a clear awnser must be given as to what exactly is causing this.
+	CRONOMETER:
+		- It stops displaying it's Background Cronometer if it's name is changed. This might happen because the ports it uses to communicate with the Background Cronometer are accessible using it's name, and they aren't updated when change happens.
+	CRONOMETER CREATOR:
+		- It allows the creation of a Cronometer without a name. That shouldn't be possible.
+	CRONOMETER PANEL:
+		- The background timers of the Cronometer Entries in the Cronometer Panel seem to be restarting when a Cronometer is opened. This issue appears to only happen when the app is running on a physical device, since it couldn't be replicated on the emulator.
+		- The debug console mentions that it couldn't find the sound asset when it tries to play the Panel's notification sound. The sound still plays without any issue, though it might still be worth checking if this might become a problem.
+	DEPRECATED API:
+		- The debug console has mentioned that certain packages use deprecated API, and that the app should "Recompile with -Xlint" for more details about that. This is whorth taking a look at as it might cause problems for the app.
+	FLUTTER RINGTONE PLAYER PACKAGE:
+		- Looping property of 'play' function doesn't work. This seems to be a problem with the package itself, as such the main solution to this is to keep the code as is, possibly commented out and wait for a fix to come.
+		- An error pops up everytime there's an atempt to play a sound mentioning it's file couldn't be found. The sound still plays without a problem, but it might be a good idea to make a post to StackOverflow to see if anyone knows something about this issue.
+	RECORDING DATA:
+		- Errors may happen if the app tries to read data during the first few moments of startup. The possible reason for this is that the CronometerRecorder may not have finished opening the File before the app tries to read from it.
+
+THINGS TO KEEP IN MIND:
+	- Flutter is a declarative framework, as such it is easier to modify the preparations and rebuild something than it is to change it after it's been built.
+	WORKMANAGER PACKAGE:
+		- The minimum time between executions of a periodic task in this pakcage is 15 minutes, as such it isn't useful for building a Background Cronometer.
+
+VARIABLE LISTING ORDER:
+	- Separate the group of fields from the group of their accessors with an empty line.
+		- Order them in the same manner as variables, which means the rest of this proccess applies to them as well.
+			- A getter and setter pair for the same field needs to be right next to eachother with the getter on top.
+		- Separate each accessor with an empty line.
+	- Static variables always come before instance ones, with an empty line spearating these two groups.
+	- Ordered alphabetically by modifier(no modifier, "const", "final", "late").
+	- Place value types above reference types, and dynamic types are placed below both of them.
+		- Value types are ordered in increasing order of type complexity.
+		- Reference types are ordered alphabetically by type name.
+	- OBS: Collection fields are placed right bellow the group of fields that has the same type as it's most complex type, with Lists coming before Maps.
+	- Order alphabetically by variable name.
+
+CURRENT GOAL:
+	- Build a 2.0 Field Version of the app that allows it to maintain Time Records. (ESTIMATED COMPLETION: 30/11/2022)
+
+THINGS TO DO:
+	*- Test if the app is working properly in a physical device.
+	- Fix the errors related to the Alarm not triggering properly.

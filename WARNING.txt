@@ -1,0 +1,3 @@
+The 'dart_tool' folder's name is preceeded by a dot(.). If you're rebuilding the project from this GitHub repository, be sure to add that dot. It wasn't there from the start because GitHub Desktop wouldn't detect the folder if the dot was there. At the time of writing I didn't figure out the reason for that and don't have much more time to do so.
+
+The '-build' folder also shouldn't have a dash(-) at the beginning, but it needed one to be uploaded for the same reasons as the 'dart_tool' file

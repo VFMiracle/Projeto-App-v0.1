@@ -1,0 +1,291 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\App Projects\Flutter Projects\projeto_app\android\app\src\main\AndroidManifest.xml:1:1-62:12
+INJECTED from E:\App Projects\Flutter Projects\projeto_app\android\app\src\main\AndroidManifest.xml:1:1-62:12
+INJECTED from E:\App Projects\Flutter Projects\projeto_app\android\app\src\main\AndroidManifest.xml:1:1-62:12
+INJECTED from E:\App Projects\Flutter Projects\projeto_app\android\app\src\main\AndroidManifest.xml:1:1-62:12
+MERGED from E:\App Projects\Flutter Projects\projeto_app\android\app\src\main\AndroidManifest.xml:1:1-62:12
+MERGED from [:sqflite] E:\App Projects\Flutter Projects\projeto_app\build\sqflite\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:flutter_ringtone_player] E:\App Projects\Flutter Projects\projeto_app\build\flutter_ringtone_player\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:android_alarm_manager_plus] E:\App Projects\Flutter Projects\projeto_app\build\android_alarm_manager_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:flutter_keyboard_visibility] E:\App Projects\Flutter Projects\projeto_app\build\flutter_keyboard_visibility\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [:flutter_local_notifications] E:\App Projects\Flutter Projects\projeto_app\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-28:12
+MERGED from [:path_provider_android] E:\App Projects\Flutter Projects\projeto_app\build\path_provider_android\intermediates\merged_manifest\debug\AndroidManifest.xml:2:1-7:12
+MERGED from [androidx.window:window-java:1.0.0-beta04] C:\Users\Vanderson\.gradle\caches\transforms-3\aba343f5b42b3cdee3f2ea827d38d0ba\transformed\jetified-window-java-1.0.0-beta04\AndroidManifest.xml:17:1-23:12
+MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\Vanderson\.gradle\caches\transforms-3\992fac5d13fda8f49c54dce4a35d13b2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:17:1-33:12
+MERGED from [androidx.appcompat:appcompat:1.3.1] C:\Users\Vanderson\.gradle\caches\transforms-3\1d571848856fcf29131dbe108c11a112\transformed\appcompat-1.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.media:media:1.1.0] C:\Users\Vanderson\.gradle\caches\transforms-3\aa523610701c7e1aa470fa6f0875b58c\transformed\media-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\Vanderson\.gradle\caches\transforms-3\eb28b6d36d86b4135593c41819c90abe\transformed\fragment-1.3.6\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.activity:activity:1.2.4] C:\Users\Vanderson\.gradle\caches\transforms-3\9d11a8939c598095b191c7dd6f8a26d6\transformed\jetified-activity-1.2.4\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.3.1] C:\Users\Vanderson\.gradle\caches\transforms-3\dd67f71c620f0a9c6ae5ea4e8d6fb6e5\transformed\jetified-appcompat-resources-1.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Vanderson\.gradle\caches\transforms-3\7177a4cdf2035cdb558304e244afdfd0\transformed\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Vanderson\.gradle\caches\transforms-3\1ef241d6e20576eee993bb21b2d6c5c6\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Vanderson\.gradle\caches\transforms-3\922e00e5f5eb26b58dba550326a30d4e\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Vanderson\.gradle\caches\transforms-3\65b4111d42c0df175466fb4ce9fba5a7\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Vanderson\.gradle\caches\transforms-3\500aae1c67cdac9e724418e0337718bc\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Vanderson\.gradle\caches\transforms-3\df5c6306c298366a044a1a8b360af587\transformed\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.6.0] C:\Users\Vanderson\.gradle\caches\transforms-3\aa95afed299d988ca18a7fc986da1ae7\transformed\core-1.6.0\AndroidManifest.xml:17:1-26:12
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.2.3] C:\Users\Vanderson\.gradle\caches\transforms-3\c0ad3decbdce71448bdf50571c6dbe31\transformed\jetified-threetenabp-1.2.3\AndroidManifest.xml:2:1-9:12
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Vanderson\.gradle\caches\transforms-3\2179c41f4c286fd5fe0b359099926dfe\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Vanderson\.gradle\caches\transforms-3\03e4818e28c3f1b36f7de82d8fb82378\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\Vanderson\.gradle\caches\transforms-3\5ca0520fe67d2d4027e6caf13f8168d8\transformed\lifecycle-runtime-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Vanderson\.gradle\caches\transforms-3\c47326055aa49d6b8bea7927dc277c6f\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\Vanderson\.gradle\caches\transforms-3\96adde52de695edd5e76b525b41c8e9f\transformed\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\Vanderson\.gradle\caches\transforms-3\47e44fd81988372e03371eaebfca8994\transformed\jetified-savedstate-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\Vanderson\.gradle\caches\transforms-3\ae0113b1d05db4a8c72e4de09a22253e\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Vanderson\.gradle\caches\transforms-3\ae2ae2f3c80837d170a46cd3ac3f98cf\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\Vanderson\.gradle\caches\transforms-3\621b14956ae0b6bc2a178e0526aa4b32\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Vanderson\.gradle\caches\transforms-3\5421e40c384b9c7b8085fb7a9910d3c4\transformed\core-runtime-2.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Vanderson\.gradle\caches\transforms-3\526c9d9f8dbcbc45337e4303a3f61ade\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\Vanderson\.gradle\caches\transforms-3\8fcc35ee394ededcd266b5f5d4b59e6c\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:17:1-24:12
+INJECTED from E:\App Projects\Flutter Projects\projeto_app\android\app\src\debug\AndroidManifest.xml:1:1-7:12
+INJECTED from E:\App Projects\Flutter Projects\projeto_app\android\app\src\debug\AndroidManifest.xml:1:1-7:12
+INJECTED from E:\App Projects\Flutter Projects\projeto_app\android\app\src\debug\AndroidManifest.xml:1:1-7:12
+	package
+		ADDED from E:\App Projects\Flutter Projects\projeto_app\android\app\src\main\AndroidManifest.xml:2:5-38
+		INJECTED from E:\App Projects\Flutter Projects\projeto_app\android\app\src\main\AndroidManifest.xml
+		INJECTED from E:\App Projects\Flutter Projects\projeto_app\android\app\src\debug\AndroidManifest.xml
+	android:versionName
+		INJECTED from E:\App Projects\Flutter Projects\projeto_app\android\app\src\main\AndroidManifest.xml
+		ADDED from E:\App Projects\Flutter Projects\projeto_app\android\app\src\main\AndroidManifest.xml:1:1-62:12
+		INJECTED from E:\App Projects\Flutter Projects\projeto_app\android\app\src\debug\AndroidManifest.xml
+	android:versionCode
+		INJECTED from E:\App Projects\Flutter Projects\projeto_app\android\app\src\main\AndroidManifest.xml
+		ADDED from E:\App Projects\Flutter Projects\projeto_app\android\app\src\main\AndroidManifest.xml:1:1-62:12
+		INJECTED from E:\App Projects\Flutter Projects\projeto_app\android\app\src\debug\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\App Projects\Flutter Projects\projeto_app\android\app\src\main\AndroidManifest.xml:1:11-69
+uses-permission#android.permission.RECEIVE_BOOT_COMPLETED
+ADDED from E:\App Projects\Flutter Projects\projeto_app\android\app\src\main\AndroidManifest.xml:3:5-80
+MERGED from [:flutter_local_notifications] E:\App Projects\Flutter Projects\projeto_app\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:7:5-81
+MERGED from [:flutter_local_notifications] E:\App Projects\Flutter Projects\projeto_app\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:7:5-81
+	android:name
+		ADDED from E:\App Projects\Flutter Projects\projeto_app\android\app\src\main\AndroidManifest.xml:3:22-78
+uses-permission#android.permission.WAKE_LOCK
+ADDED from E:\App Projects\Flutter Projects\projeto_app\android\app\src\main\AndroidManifest.xml:4:5-67
+	android:name
+		ADDED from E:\App Projects\Flutter Projects\projeto_app\android\app\src\main\AndroidManifest.xml:4:22-65
+uses-permission#android.permission.SCHEDULE_EXACT_ALARM
+ADDED from E:\App Projects\Flutter Projects\projeto_app\android\app\src\main\AndroidManifest.xml:5:5-78
+MERGED from [:flutter_local_notifications] E:\App Projects\Flutter Projects\projeto_app\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-79
+MERGED from [:flutter_local_notifications] E:\App Projects\Flutter Projects\projeto_app\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-79
+	android:name
+		ADDED from E:\App Projects\Flutter Projects\projeto_app\android\app\src\main\AndroidManifest.xml:5:22-76
+application
+ADDED from E:\App Projects\Flutter Projects\projeto_app\android\app\src\main\AndroidManifest.xml:6:4-61:19
+MERGED from [:flutter_local_notifications] E:\App Projects\Flutter Projects\projeto_app\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:12:5-26:19
+MERGED from [:flutter_local_notifications] E:\App Projects\Flutter Projects\projeto_app\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:12:5-26:19
+MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\Vanderson\.gradle\caches\transforms-3\992fac5d13fda8f49c54dce4a35d13b2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\Vanderson\.gradle\caches\transforms-3\992fac5d13fda8f49c54dce4a35d13b2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:24:5-31:19
+MERGED from [androidx.core:core:1.6.0] C:\Users\Vanderson\.gradle\caches\transforms-3\aa95afed299d988ca18a7fc986da1ae7\transformed\core-1.6.0\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.6.0] C:\Users\Vanderson\.gradle\caches\transforms-3\aa95afed299d988ca18a7fc986da1ae7\transformed\core-1.6.0\AndroidManifest.xml:24:5-89
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.2.3] C:\Users\Vanderson\.gradle\caches\transforms-3\c0ad3decbdce71448bdf50571c6dbe31\transformed\jetified-threetenabp-1.2.3\AndroidManifest.xml:7:5-20
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.2.3] C:\Users\Vanderson\.gradle\caches\transforms-3\c0ad3decbdce71448bdf50571c6dbe31\transformed\jetified-threetenabp-1.2.3\AndroidManifest.xml:7:5-20
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Vanderson\.gradle\caches\transforms-3\03e4818e28c3f1b36f7de82d8fb82378\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Vanderson\.gradle\caches\transforms-3\03e4818e28c3f1b36f7de82d8fb82378\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.6.0] C:\Users\Vanderson\.gradle\caches\transforms-3\aa95afed299d988ca18a7fc986da1ae7\transformed\core-1.6.0\AndroidManifest.xml:24:18-86
+	android:label
+		ADDED from E:\App Projects\Flutter Projects\projeto_app\android\app\src\main\AndroidManifest.xml:7:9-36
+	android:icon
+		ADDED from E:\App Projects\Flutter Projects\projeto_app\android\app\src\main\AndroidManifest.xml:8:9-43
+service#dev.fluttercommunity.plus.androidalarmmanager.AlarmService
+ADDED from E:\App Projects\Flutter Projects\projeto_app\android\app\src\main\AndroidManifest.xml:10:9-13:39
+	android:exported
+		ADDED from E:\App Projects\Flutter Projects\projeto_app\android\app\src\main\AndroidManifest.xml:13:13-37
+	android:permission
+		ADDED from E:\App Projects\Flutter Projects\projeto_app\android\app\src\main\AndroidManifest.xml:12:13-69
+	android:name
+		ADDED from E:\App Projects\Flutter Projects\projeto_app\android\app\src\main\AndroidManifest.xml:11:13-86
+receiver#dev.fluttercommunity.plus.androidalarmmanager.AlarmBroadcastReceiver
+ADDED from E:\App Projects\Flutter Projects\projeto_app\android\app\src\main\AndroidManifest.xml:14:9-16:39
+	android:exported
+		ADDED from E:\App Projects\Flutter Projects\projeto_app\android\app\src\main\AndroidManifest.xml:16:13-37
+	android:name
+		ADDED from E:\App Projects\Flutter Projects\projeto_app\android\app\src\main\AndroidManifest.xml:15:13-96
+receiver#dev.fluttercommunity.plus.androidalarmmanager.RebootBroadcastReceiver
+ADDED from E:\App Projects\Flutter Projects\projeto_app\android\app\src\main\AndroidManifest.xml:17:9-24:20
+	android:enabled
+		ADDED from E:\App Projects\Flutter Projects\projeto_app\android\app\src\main\AndroidManifest.xml:19:13-36
+	android:exported
+		ADDED from E:\App Projects\Flutter Projects\projeto_app\android\app\src\main\AndroidManifest.xml:20:13-37
+	android:name
+		ADDED from E:\App Projects\Flutter Projects\projeto_app\android\app\src\main\AndroidManifest.xml:18:13-97
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED
+ADDED from E:\App Projects\Flutter Projects\projeto_app\android\app\src\main\AndroidManifest.xml:21:13-23:29
+action#android.intent.action.BOOT_COMPLETED
+ADDED from E:\App Projects\Flutter Projects\projeto_app\android\app\src\main\AndroidManifest.xml:22:17-79
+	android:name
+		ADDED from E:\App Projects\Flutter Projects\projeto_app\android\app\src\main\AndroidManifest.xml:22:25-76
+activity#com.example.projeto_app.MainActivity
+ADDED from E:\App Projects\Flutter Projects\projeto_app\android\app\src\main\AndroidManifest.xml:26:9-55:20
+	android:launchMode
+		ADDED from E:\App Projects\Flutter Projects\projeto_app\android\app\src\main\AndroidManifest.xml:28:13-43
+	android:hardwareAccelerated
+		ADDED from E:\App Projects\Flutter Projects\projeto_app\android\app\src\main\AndroidManifest.xml:31:13-47
+	android:windowSoftInputMode
+		ADDED from E:\App Projects\Flutter Projects\projeto_app\android\app\src\main\AndroidManifest.xml:32:13-55
+	android:exported
+		ADDED from E:\App Projects\Flutter Projects\projeto_app\android\app\src\main\AndroidManifest.xml:33:13-36
+	android:configChanges
+		ADDED from E:\App Projects\Flutter Projects\projeto_app\android\app\src\main\AndroidManifest.xml:30:13-163
+	android:theme
+		ADDED from E:\App Projects\Flutter Projects\projeto_app\android\app\src\main\AndroidManifest.xml:29:13-47
+	android:name
+		ADDED from E:\App Projects\Flutter Projects\projeto_app\android\app\src\main\AndroidManifest.xml:27:13-41
+meta-data#io.flutter.embedding.android.NormalTheme
+ADDED from E:\App Projects\Flutter Projects\projeto_app\android\app\src\main\AndroidManifest.xml:38:13-41:17
+	android:resource
+		ADDED from E:\App Projects\Flutter Projects\projeto_app\android\app\src\main\AndroidManifest.xml:40:15-52
+	android:name
+		ADDED from E:\App Projects\Flutter Projects\projeto_app\android\app\src\main\AndroidManifest.xml:39:15-70
+meta-data#io.flutter.embedding.android.SplashScreenDrawable
+ADDED from E:\App Projects\Flutter Projects\projeto_app\android\app\src\main\AndroidManifest.xml:47:13-50:17
+	android:resource
+		ADDED from E:\App Projects\Flutter Projects\projeto_app\android\app\src\main\AndroidManifest.xml:49:15-61
+	android:name
+		ADDED from E:\App Projects\Flutter Projects\projeto_app\android\app\src\main\AndroidManifest.xml:48:15-79
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from E:\App Projects\Flutter Projects\projeto_app\android\app\src\main\AndroidManifest.xml:51:13-54:29
+action#android.intent.action.MAIN
+ADDED from E:\App Projects\Flutter Projects\projeto_app\android\app\src\main\AndroidManifest.xml:52:17-68
+	android:name
+		ADDED from E:\App Projects\Flutter Projects\projeto_app\android\app\src\main\AndroidManifest.xml:52:25-66
+category#android.intent.category.LAUNCHER
+ADDED from E:\App Projects\Flutter Projects\projeto_app\android\app\src\main\AndroidManifest.xml:53:17-76
+	android:name
+		ADDED from E:\App Projects\Flutter Projects\projeto_app\android\app\src\main\AndroidManifest.xml:53:27-74
+meta-data#flutterEmbedding
+ADDED from E:\App Projects\Flutter Projects\projeto_app\android\app\src\main\AndroidManifest.xml:58:9-60:33
+	android:value
+		ADDED from E:\App Projects\Flutter Projects\projeto_app\android\app\src\main\AndroidManifest.xml:60:13-30
+	android:name
+		ADDED from E:\App Projects\Flutter Projects\projeto_app\android\app\src\main\AndroidManifest.xml:59:13-44
+uses-sdk
+INJECTED from E:\App Projects\Flutter Projects\projeto_app\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from E:\App Projects\Flutter Projects\projeto_app\android\app\src\main\AndroidManifest.xml
+INJECTED from E:\App Projects\Flutter Projects\projeto_app\android\app\src\main\AndroidManifest.xml
+MERGED from [:sqflite] E:\App Projects\Flutter Projects\projeto_app\build\sqflite\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:sqflite] E:\App Projects\Flutter Projects\projeto_app\build\sqflite\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:flutter_ringtone_player] E:\App Projects\Flutter Projects\projeto_app\build\flutter_ringtone_player\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:flutter_ringtone_player] E:\App Projects\Flutter Projects\projeto_app\build\flutter_ringtone_player\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:android_alarm_manager_plus] E:\App Projects\Flutter Projects\projeto_app\build\android_alarm_manager_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:android_alarm_manager_plus] E:\App Projects\Flutter Projects\projeto_app\build\android_alarm_manager_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:flutter_keyboard_visibility] E:\App Projects\Flutter Projects\projeto_app\build\flutter_keyboard_visibility\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:flutter_keyboard_visibility] E:\App Projects\Flutter Projects\projeto_app\build\flutter_keyboard_visibility\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:flutter_local_notifications] E:\App Projects\Flutter Projects\projeto_app\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:flutter_local_notifications] E:\App Projects\Flutter Projects\projeto_app\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:path_provider_android] E:\App Projects\Flutter Projects\projeto_app\build\path_provider_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [:path_provider_android] E:\App Projects\Flutter Projects\projeto_app\build\path_provider_android\intermediates\merged_manifest\debug\AndroidManifest.xml:5:5-44
+MERGED from [androidx.window:window-java:1.0.0-beta04] C:\Users\Vanderson\.gradle\caches\transforms-3\aba343f5b42b3cdee3f2ea827d38d0ba\transformed\jetified-window-java-1.0.0-beta04\AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.window:window-java:1.0.0-beta04] C:\Users\Vanderson\.gradle\caches\transforms-3\aba343f5b42b3cdee3f2ea827d38d0ba\transformed\jetified-window-java-1.0.0-beta04\AndroidManifest.xml:19:5-21:41
+MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\Vanderson\.gradle\caches\transforms-3\992fac5d13fda8f49c54dce4a35d13b2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.window:window:1.0.0-beta04] C:\Users\Vanderson\.gradle\caches\transforms-3\992fac5d13fda8f49c54dce4a35d13b2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.3.1] C:\Users\Vanderson\.gradle\caches\transforms-3\1d571848856fcf29131dbe108c11a112\transformed\appcompat-1.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.3.1] C:\Users\Vanderson\.gradle\caches\transforms-3\1d571848856fcf29131dbe108c11a112\transformed\appcompat-1.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.1.0] C:\Users\Vanderson\.gradle\caches\transforms-3\aa523610701c7e1aa470fa6f0875b58c\transformed\media-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.media:media:1.1.0] C:\Users\Vanderson\.gradle\caches\transforms-3\aa523610701c7e1aa470fa6f0875b58c\transformed\media-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\Vanderson\.gradle\caches\transforms-3\eb28b6d36d86b4135593c41819c90abe\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.3.6] C:\Users\Vanderson\.gradle\caches\transforms-3\eb28b6d36d86b4135593c41819c90abe\transformed\fragment-1.3.6\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] C:\Users\Vanderson\.gradle\caches\transforms-3\9d11a8939c598095b191c7dd6f8a26d6\transformed\jetified-activity-1.2.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.2.4] C:\Users\Vanderson\.gradle\caches\transforms-3\9d11a8939c598095b191c7dd6f8a26d6\transformed\jetified-activity-1.2.4\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.1] C:\Users\Vanderson\.gradle\caches\transforms-3\dd67f71c620f0a9c6ae5ea4e8d6fb6e5\transformed\jetified-appcompat-resources-1.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.3.1] C:\Users\Vanderson\.gradle\caches\transforms-3\dd67f71c620f0a9c6ae5ea4e8d6fb6e5\transformed\jetified-appcompat-resources-1.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Vanderson\.gradle\caches\transforms-3\7177a4cdf2035cdb558304e244afdfd0\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\Vanderson\.gradle\caches\transforms-3\7177a4cdf2035cdb558304e244afdfd0\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Vanderson\.gradle\caches\transforms-3\1ef241d6e20576eee993bb21b2d6c5c6\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\Vanderson\.gradle\caches\transforms-3\1ef241d6e20576eee993bb21b2d6c5c6\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Vanderson\.gradle\caches\transforms-3\922e00e5f5eb26b58dba550326a30d4e\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\Vanderson\.gradle\caches\transforms-3\922e00e5f5eb26b58dba550326a30d4e\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Vanderson\.gradle\caches\transforms-3\65b4111d42c0df175466fb4ce9fba5a7\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\Vanderson\.gradle\caches\transforms-3\65b4111d42c0df175466fb4ce9fba5a7\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Vanderson\.gradle\caches\transforms-3\500aae1c67cdac9e724418e0337718bc\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\Vanderson\.gradle\caches\transforms-3\500aae1c67cdac9e724418e0337718bc\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Vanderson\.gradle\caches\transforms-3\df5c6306c298366a044a1a8b360af587\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\Vanderson\.gradle\caches\transforms-3\df5c6306c298366a044a1a8b360af587\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.6.0] C:\Users\Vanderson\.gradle\caches\transforms-3\aa95afed299d988ca18a7fc986da1ae7\transformed\core-1.6.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.6.0] C:\Users\Vanderson\.gradle\caches\transforms-3\aa95afed299d988ca18a7fc986da1ae7\transformed\core-1.6.0\AndroidManifest.xml:20:5-22:41
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.2.3] C:\Users\Vanderson\.gradle\caches\transforms-3\c0ad3decbdce71448bdf50571c6dbe31\transformed\jetified-threetenabp-1.2.3\AndroidManifest.xml:5:5-44
+MERGED from [com.jakewharton.threetenabp:threetenabp:1.2.3] C:\Users\Vanderson\.gradle\caches\transforms-3\c0ad3decbdce71448bdf50571c6dbe31\transformed\jetified-threetenabp-1.2.3\AndroidManifest.xml:5:5-44
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Vanderson\.gradle\caches\transforms-3\2179c41f4c286fd5fe0b359099926dfe\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.tracing:tracing:1.0.0] C:\Users\Vanderson\.gradle\caches\transforms-3\2179c41f4c286fd5fe0b359099926dfe\transformed\jetified-tracing-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Vanderson\.gradle\caches\transforms-3\03e4818e28c3f1b36f7de82d8fb82378\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] C:\Users\Vanderson\.gradle\caches\transforms-3\03e4818e28c3f1b36f7de82d8fb82378\transformed\versionedparcelable-1.1.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\Vanderson\.gradle\caches\transforms-3\5ca0520fe67d2d4027e6caf13f8168d8\transformed\lifecycle-runtime-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.3.1] C:\Users\Vanderson\.gradle\caches\transforms-3\5ca0520fe67d2d4027e6caf13f8168d8\transformed\lifecycle-runtime-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Vanderson\.gradle\caches\transforms-3\c47326055aa49d6b8bea7927dc277c6f\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\Vanderson\.gradle\caches\transforms-3\c47326055aa49d6b8bea7927dc277c6f\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\Vanderson\.gradle\caches\transforms-3\96adde52de695edd5e76b525b41c8e9f\transformed\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel-savedstate:2.3.1] C:\Users\Vanderson\.gradle\caches\transforms-3\96adde52de695edd5e76b525b41c8e9f\transformed\jetified-lifecycle-viewmodel-savedstate-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\Vanderson\.gradle\caches\transforms-3\47e44fd81988372e03371eaebfca8994\transformed\jetified-savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.1.0] C:\Users\Vanderson\.gradle\caches\transforms-3\47e44fd81988372e03371eaebfca8994\transformed\jetified-savedstate-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\Vanderson\.gradle\caches\transforms-3\ae0113b1d05db4a8c72e4de09a22253e\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.3.1] C:\Users\Vanderson\.gradle\caches\transforms-3\ae0113b1d05db4a8c72e4de09a22253e\transformed\lifecycle-viewmodel-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Vanderson\.gradle\caches\transforms-3\ae2ae2f3c80837d170a46cd3ac3f98cf\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\Vanderson\.gradle\caches\transforms-3\ae2ae2f3c80837d170a46cd3ac3f98cf\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\Vanderson\.gradle\caches\transforms-3\621b14956ae0b6bc2a178e0526aa4b32\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.3.1] C:\Users\Vanderson\.gradle\caches\transforms-3\621b14956ae0b6bc2a178e0526aa4b32\transformed\lifecycle-livedata-core-2.3.1\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Vanderson\.gradle\caches\transforms-3\5421e40c384b9c7b8085fb7a9910d3c4\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.arch.core:core-runtime:2.1.0] C:\Users\Vanderson\.gradle\caches\transforms-3\5421e40c384b9c7b8085fb7a9910d3c4\transformed\core-runtime-2.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Vanderson\.gradle\caches\transforms-3\526c9d9f8dbcbc45337e4303a3f61ade\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\Vanderson\.gradle\caches\transforms-3\526c9d9f8dbcbc45337e4303a3f61ade\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\Vanderson\.gradle\caches\transforms-3\8fcc35ee394ededcd266b5f5d4b59e6c\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.1.0] C:\Users\Vanderson\.gradle\caches\transforms-3\8fcc35ee394ededcd266b5f5d4b59e6c\transformed\jetified-annotation-experimental-1.1.0\AndroidManifest.xml:20:5-22:41
+INJECTED from E:\App Projects\Flutter Projects\projeto_app\android\app\src\debug\AndroidManifest.xml
+INJECTED from E:\App Projects\Flutter Projects\projeto_app\android\app\src\debug\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from E:\App Projects\Flutter Projects\projeto_app\android\app\src\main\AndroidManifest.xml
+		INJECTED from E:\App Projects\Flutter Projects\projeto_app\android\app\src\debug\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\App Projects\Flutter Projects\projeto_app\android\app\src\main\AndroidManifest.xml
+		INJECTED from E:\App Projects\Flutter Projects\projeto_app\android\app\src\debug\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from E:\App Projects\Flutter Projects\projeto_app\android\app\src\debug\AndroidManifest.xml:6:5-66
+	android:name
+		ADDED from E:\App Projects\Flutter Projects\projeto_app\android\app\src\debug\AndroidManifest.xml:6:22-64
+uses-permission#android.permission.VIBRATE
+ADDED from [:flutter_local_notifications] E:\App Projects\Flutter Projects\projeto_app\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:8:5-66
+	android:name
+		ADDED from [:flutter_local_notifications] E:\App Projects\Flutter Projects\projeto_app\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:8:22-63
+uses-permission#android.permission.USE_FULL_SCREEN_INTENT
+ADDED from [:flutter_local_notifications] E:\App Projects\Flutter Projects\projeto_app\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-81
+	android:name
+		ADDED from [:flutter_local_notifications] E:\App Projects\Flutter Projects\projeto_app\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:9:22-78
+receiver#com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver
+ADDED from [:flutter_local_notifications] E:\App Projects\Flutter Projects\projeto_app\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:13:9-15:40
+	android:exported
+		ADDED from [:flutter_local_notifications] E:\App Projects\Flutter Projects\projeto_app\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-37
+	android:name
+		ADDED from [:flutter_local_notifications] E:\App Projects\Flutter Projects\projeto_app\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-97
+receiver#com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver
+ADDED from [:flutter_local_notifications] E:\App Projects\Flutter Projects\projeto_app\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:16:9-25:20
+	android:exported
+		ADDED from [:flutter_local_notifications] E:\App Projects\Flutter Projects\projeto_app\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:18:13-37
+	android:name
+		ADDED from [:flutter_local_notifications] E:\App Projects\Flutter Projects\projeto_app\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-101
+intent-filter#action:name:android.intent.action.BOOT_COMPLETED+action:name:android.intent.action.MY_PACKAGE_REPLACED+action:name:android.intent.action.QUICKBOOT_POWERON+action:name:com.htc.intent.action.QUICKBOOT_POWERON
+ADDED from [:flutter_local_notifications] E:\App Projects\Flutter Projects\projeto_app\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:19:13-24:29
+action#android.intent.action.MY_PACKAGE_REPLACED
+ADDED from [:flutter_local_notifications] E:\App Projects\Flutter Projects\projeto_app\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:21:17-84
+	android:name
+		ADDED from [:flutter_local_notifications] E:\App Projects\Flutter Projects\projeto_app\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:21:25-81
+action#android.intent.action.QUICKBOOT_POWERON
+ADDED from [:flutter_local_notifications] E:\App Projects\Flutter Projects\projeto_app\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:22:17-82
+	android:name
+		ADDED from [:flutter_local_notifications] E:\App Projects\Flutter Projects\projeto_app\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:22:25-79
+action#com.htc.intent.action.QUICKBOOT_POWERON
+ADDED from [:flutter_local_notifications] E:\App Projects\Flutter Projects\projeto_app\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:23:17-82
+	android:name
+		ADDED from [:flutter_local_notifications] E:\App Projects\Flutter Projects\projeto_app\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:23:25-79
+uses-library#androidx.window.extensions
+ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\Vanderson\.gradle\caches\transforms-3\992fac5d13fda8f49c54dce4a35d13b2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\Vanderson\.gradle\caches\transforms-3\992fac5d13fda8f49c54dce4a35d13b2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\Vanderson\.gradle\caches\transforms-3\992fac5d13fda8f49c54dce4a35d13b2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+uses-library#androidx.window.sidecar
+ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\Vanderson\.gradle\caches\transforms-3\992fac5d13fda8f49c54dce4a35d13b2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+	android:required
+		ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\Vanderson\.gradle\caches\transforms-3\992fac5d13fda8f49c54dce4a35d13b2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+	android:name
+		ADDED from [androidx.window:window:1.0.0-beta04] C:\Users\Vanderson\.gradle\caches\transforms-3\992fac5d13fda8f49c54dce4a35d13b2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51

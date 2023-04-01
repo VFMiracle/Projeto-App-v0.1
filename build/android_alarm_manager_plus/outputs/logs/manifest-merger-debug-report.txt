@@ -1,0 +1,19 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\SDKs\flutter\.pub-cache\hosted\pub.dartlang.org\android_alarm_manager_plus-2.0.3\android\src\main\AndroidManifest.xml:1:1-69
+INJECTED from E:\SDKs\flutter\.pub-cache\hosted\pub.dartlang.org\android_alarm_manager_plus-2.0.3\android\src\main\AndroidManifest.xml:1:1-69
+INJECTED from E:\SDKs\flutter\.pub-cache\hosted\pub.dartlang.org\android_alarm_manager_plus-2.0.3\android\src\main\AndroidManifest.xml:1:1-69
+	package
+		ADDED from E:\SDKs\flutter\.pub-cache\hosted\pub.dartlang.org\android_alarm_manager_plus-2.0.3\android\src\main\AndroidManifest.xml:1:11-66
+		INJECTED from E:\SDKs\flutter\.pub-cache\hosted\pub.dartlang.org\android_alarm_manager_plus-2.0.3\android\src\main\AndroidManifest.xml
+		INJECTED from E:\SDKs\flutter\.pub-cache\hosted\pub.dartlang.org\android_alarm_manager_plus-2.0.3\android\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\SDKs\flutter\.pub-cache\hosted\pub.dartlang.org\android_alarm_manager_plus-2.0.3\android\src\main\AndroidManifest.xml:1:1-69
+uses-sdk
+INJECTED from E:\SDKs\flutter\.pub-cache\hosted\pub.dartlang.org\android_alarm_manager_plus-2.0.3\android\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from E:\SDKs\flutter\.pub-cache\hosted\pub.dartlang.org\android_alarm_manager_plus-2.0.3\android\src\main\AndroidManifest.xml
+INJECTED from E:\SDKs\flutter\.pub-cache\hosted\pub.dartlang.org\android_alarm_manager_plus-2.0.3\android\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\SDKs\flutter\.pub-cache\hosted\pub.dartlang.org\android_alarm_manager_plus-2.0.3\android\src\main\AndroidManifest.xml
+		ADDED from E:\SDKs\flutter\.pub-cache\hosted\pub.dartlang.org\android_alarm_manager_plus-2.0.3\android\src\main\AndroidManifest.xml
+		INJECTED from E:\SDKs\flutter\.pub-cache\hosted\pub.dartlang.org\android_alarm_manager_plus-2.0.3\android\src\main\AndroidManifest.xml

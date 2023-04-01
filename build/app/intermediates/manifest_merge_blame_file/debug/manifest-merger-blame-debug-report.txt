@@ -1,0 +1,181 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.projeto_app"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+9        android:targetSdkVersion="31" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->E:\App Projects\Flutter Projects\projeto_app\android\app\src\debug\AndroidManifest.xml:6:5-66
+14-->E:\App Projects\Flutter Projects\projeto_app\android\app\src\debug\AndroidManifest.xml:6:22-64
+15    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+15-->E:\App Projects\Flutter Projects\projeto_app\android\app\src\main\AndroidManifest.xml:3:5-80
+15-->E:\App Projects\Flutter Projects\projeto_app\android\app\src\main\AndroidManifest.xml:3:22-78
+16    <uses-permission android:name="android.permission.WAKE_LOCK" />
+16-->E:\App Projects\Flutter Projects\projeto_app\android\app\src\main\AndroidManifest.xml:4:5-67
+16-->E:\App Projects\Flutter Projects\projeto_app\android\app\src\main\AndroidManifest.xml:4:22-65
+17    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+17-->E:\App Projects\Flutter Projects\projeto_app\android\app\src\main\AndroidManifest.xml:5:5-78
+17-->E:\App Projects\Flutter Projects\projeto_app\android\app\src\main\AndroidManifest.xml:5:22-76
+18    <uses-permission android:name="android.permission.VIBRATE" />
+18-->[:flutter_local_notifications] E:\App Projects\Flutter Projects\projeto_app\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:8:5-66
+18-->[:flutter_local_notifications] E:\App Projects\Flutter Projects\projeto_app\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:8:22-63
+19    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+19-->[:flutter_local_notifications] E:\App Projects\Flutter Projects\projeto_app\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-81
+19-->[:flutter_local_notifications] E:\App Projects\Flutter Projects\projeto_app\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:9:22-78
+20
+21    <application
+21-->E:\App Projects\Flutter Projects\projeto_app\android\app\src\main\AndroidManifest.xml:6:4-61:19
+22        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+22-->[androidx.core:core:1.6.0] C:\Users\Vanderson\.gradle\caches\transforms-3\aa95afed299d988ca18a7fc986da1ae7\transformed\core-1.6.0\AndroidManifest.xml:24:18-86
+23        android:debuggable="true"
+24        android:icon="@mipmap/ic_launcher"
+24-->E:\App Projects\Flutter Projects\projeto_app\android\app\src\main\AndroidManifest.xml:8:9-43
+25        android:label="projeto_app" >
+25-->E:\App Projects\Flutter Projects\projeto_app\android\app\src\main\AndroidManifest.xml:7:9-36
+26        <service
+26-->E:\App Projects\Flutter Projects\projeto_app\android\app\src\main\AndroidManifest.xml:10:9-13:39
+27            android:name="dev.fluttercommunity.plus.androidalarmmanager.AlarmService"
+27-->E:\App Projects\Flutter Projects\projeto_app\android\app\src\main\AndroidManifest.xml:11:13-86
+28            android:exported="false"
+28-->E:\App Projects\Flutter Projects\projeto_app\android\app\src\main\AndroidManifest.xml:13:13-37
+29            android:permission="android.permission.BIND_JOB_SERVICE" />
+29-->E:\App Projects\Flutter Projects\projeto_app\android\app\src\main\AndroidManifest.xml:12:13-69
+30
+31        <receiver
+31-->E:\App Projects\Flutter Projects\projeto_app\android\app\src\main\AndroidManifest.xml:14:9-16:39
+32            android:name="dev.fluttercommunity.plus.androidalarmmanager.AlarmBroadcastReceiver"
+32-->E:\App Projects\Flutter Projects\projeto_app\android\app\src\main\AndroidManifest.xml:15:13-96
+33            android:exported="false" />
+33-->E:\App Projects\Flutter Projects\projeto_app\android\app\src\main\AndroidManifest.xml:16:13-37
+34        <receiver
+34-->E:\App Projects\Flutter Projects\projeto_app\android\app\src\main\AndroidManifest.xml:17:9-24:20
+35            android:name="dev.fluttercommunity.plus.androidalarmmanager.RebootBroadcastReceiver"
+35-->E:\App Projects\Flutter Projects\projeto_app\android\app\src\main\AndroidManifest.xml:18:13-97
+36            android:enabled="false"
+36-->E:\App Projects\Flutter Projects\projeto_app\android\app\src\main\AndroidManifest.xml:19:13-36
+37            android:exported="false" >
+37-->E:\App Projects\Flutter Projects\projeto_app\android\app\src\main\AndroidManifest.xml:20:13-37
+38            <intent-filter>
+38-->E:\App Projects\Flutter Projects\projeto_app\android\app\src\main\AndroidManifest.xml:21:13-23:29
+39                <action android:name="android.intent.action.BOOT_COMPLETED" />
+39-->E:\App Projects\Flutter Projects\projeto_app\android\app\src\main\AndroidManifest.xml:22:17-79
+39-->E:\App Projects\Flutter Projects\projeto_app\android\app\src\main\AndroidManifest.xml:22:25-76
+40            </intent-filter>
+41        </receiver>
+42
+43        <activity
+43-->E:\App Projects\Flutter Projects\projeto_app\android\app\src\main\AndroidManifest.xml:26:9-55:20
+44            android:name="com.example.projeto_app.MainActivity"
+44-->E:\App Projects\Flutter Projects\projeto_app\android\app\src\main\AndroidManifest.xml:27:13-41
+45            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+45-->E:\App Projects\Flutter Projects\projeto_app\android\app\src\main\AndroidManifest.xml:30:13-163
+46            android:exported="true"
+46-->E:\App Projects\Flutter Projects\projeto_app\android\app\src\main\AndroidManifest.xml:33:13-36
+47            android:hardwareAccelerated="true"
+47-->E:\App Projects\Flutter Projects\projeto_app\android\app\src\main\AndroidManifest.xml:31:13-47
+48            android:launchMode="singleTop"
+48-->E:\App Projects\Flutter Projects\projeto_app\android\app\src\main\AndroidManifest.xml:28:13-43
+49            android:theme="@style/LaunchTheme"
+49-->E:\App Projects\Flutter Projects\projeto_app\android\app\src\main\AndroidManifest.xml:29:13-47
+50            android:windowSoftInputMode="adjustResize" >
+50-->E:\App Projects\Flutter Projects\projeto_app\android\app\src\main\AndroidManifest.xml:32:13-55
+51
+52            <!--
+53                 Specifies an Android theme to apply to this Activity as soon as
+54                 the Android process has started. This theme is visible to the user
+55                 while the Flutter UI initializes. After that, this theme continues
+56                 to determine the Window background behind the Flutter UI.
+57            -->
+58            <meta-data
+58-->E:\App Projects\Flutter Projects\projeto_app\android\app\src\main\AndroidManifest.xml:38:13-41:17
+59                android:name="io.flutter.embedding.android.NormalTheme"
+59-->E:\App Projects\Flutter Projects\projeto_app\android\app\src\main\AndroidManifest.xml:39:15-70
+60                android:resource="@style/NormalTheme" />
+60-->E:\App Projects\Flutter Projects\projeto_app\android\app\src\main\AndroidManifest.xml:40:15-52
+61            <!--
+62                 Displays an Android View that continues showing the launch screen
+63                 Drawable until Flutter paints its first frame, then this splash
+64                 screen fades out. A splash screen is useful to avoid any visual
+65                 gap between the end of Android's launch screen and the painting of
+66                 Flutter's first frame.
+67            -->
+68            <meta-data
+68-->E:\App Projects\Flutter Projects\projeto_app\android\app\src\main\AndroidManifest.xml:47:13-50:17
+69                android:name="io.flutter.embedding.android.SplashScreenDrawable"
+69-->E:\App Projects\Flutter Projects\projeto_app\android\app\src\main\AndroidManifest.xml:48:15-79
+70                android:resource="@drawable/launch_background" />
+70-->E:\App Projects\Flutter Projects\projeto_app\android\app\src\main\AndroidManifest.xml:49:15-61
+71
+72            <intent-filter>
+72-->E:\App Projects\Flutter Projects\projeto_app\android\app\src\main\AndroidManifest.xml:51:13-54:29
+73                <action android:name="android.intent.action.MAIN" />
+73-->E:\App Projects\Flutter Projects\projeto_app\android\app\src\main\AndroidManifest.xml:52:17-68
+73-->E:\App Projects\Flutter Projects\projeto_app\android\app\src\main\AndroidManifest.xml:52:25-66
+74
+75                <category android:name="android.intent.category.LAUNCHER" />
+75-->E:\App Projects\Flutter Projects\projeto_app\android\app\src\main\AndroidManifest.xml:53:17-76
+75-->E:\App Projects\Flutter Projects\projeto_app\android\app\src\main\AndroidManifest.xml:53:27-74
+76            </intent-filter>
+77        </activity>
+78        <!--
+79             Don't delete the meta-data below.
+80             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+81        -->
+82        <meta-data
+82-->E:\App Projects\Flutter Projects\projeto_app\android\app\src\main\AndroidManifest.xml:58:9-60:33
+83            android:name="flutterEmbedding"
+83-->E:\App Projects\Flutter Projects\projeto_app\android\app\src\main\AndroidManifest.xml:59:13-44
+84            android:value="2" />
+84-->E:\App Projects\Flutter Projects\projeto_app\android\app\src\main\AndroidManifest.xml:60:13-30
+85
+86        <receiver
+86-->[:flutter_local_notifications] E:\App Projects\Flutter Projects\projeto_app\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:13:9-15:40
+87            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver"
+87-->[:flutter_local_notifications] E:\App Projects\Flutter Projects\projeto_app\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-97
+88            android:exported="false" />
+88-->[:flutter_local_notifications] E:\App Projects\Flutter Projects\projeto_app\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-37
+89        <receiver
+89-->[:flutter_local_notifications] E:\App Projects\Flutter Projects\projeto_app\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:16:9-25:20
+90            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver"
+90-->[:flutter_local_notifications] E:\App Projects\Flutter Projects\projeto_app\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-101
+91            android:exported="false" >
+91-->[:flutter_local_notifications] E:\App Projects\Flutter Projects\projeto_app\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:18:13-37
+92            <intent-filter>
+92-->[:flutter_local_notifications] E:\App Projects\Flutter Projects\projeto_app\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:19:13-24:29
+93                <action android:name="android.intent.action.BOOT_COMPLETED" />
+93-->E:\App Projects\Flutter Projects\projeto_app\android\app\src\main\AndroidManifest.xml:22:17-79
+93-->E:\App Projects\Flutter Projects\projeto_app\android\app\src\main\AndroidManifest.xml:22:25-76
+94                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+94-->[:flutter_local_notifications] E:\App Projects\Flutter Projects\projeto_app\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:21:17-84
+94-->[:flutter_local_notifications] E:\App Projects\Flutter Projects\projeto_app\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:21:25-81
+95                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+95-->[:flutter_local_notifications] E:\App Projects\Flutter Projects\projeto_app\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:22:17-82
+95-->[:flutter_local_notifications] E:\App Projects\Flutter Projects\projeto_app\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:22:25-79
+96                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+96-->[:flutter_local_notifications] E:\App Projects\Flutter Projects\projeto_app\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:23:17-82
+96-->[:flutter_local_notifications] E:\App Projects\Flutter Projects\projeto_app\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:23:25-79
+97            </intent-filter>
+98        </receiver>
+99
+100        <uses-library
+100-->[androidx.window:window:1.0.0-beta04] C:\Users\Vanderson\.gradle\caches\transforms-3\992fac5d13fda8f49c54dce4a35d13b2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+101            android:name="androidx.window.extensions"
+101-->[androidx.window:window:1.0.0-beta04] C:\Users\Vanderson\.gradle\caches\transforms-3\992fac5d13fda8f49c54dce4a35d13b2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+102            android:required="false" />
+102-->[androidx.window:window:1.0.0-beta04] C:\Users\Vanderson\.gradle\caches\transforms-3\992fac5d13fda8f49c54dce4a35d13b2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+103        <uses-library
+103-->[androidx.window:window:1.0.0-beta04] C:\Users\Vanderson\.gradle\caches\transforms-3\992fac5d13fda8f49c54dce4a35d13b2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+104            android:name="androidx.window.sidecar"
+104-->[androidx.window:window:1.0.0-beta04] C:\Users\Vanderson\.gradle\caches\transforms-3\992fac5d13fda8f49c54dce4a35d13b2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+105            android:required="false" />
+105-->[androidx.window:window:1.0.0-beta04] C:\Users\Vanderson\.gradle\caches\transforms-3\992fac5d13fda8f49c54dce4a35d13b2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+106    </application>
+107
+108</manifest>
